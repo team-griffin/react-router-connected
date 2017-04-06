@@ -1,0 +1,12 @@
+sudo: required
+
+services:
+  - docker
+
+install:
+  - docker build -f docker/ci/Dockerfile -t team-griffin/react-router-connected:ci .
+
+script:
+  - docker run -ti team-griffin/react-router-connected:ci /bin/bash -c "yarn run lint:js"
+  - docker run -ti team-griffin/react-router-connected:ci /bin/bash -c "yarn run build"
+  # - docker run -ti team-griffin/react-router-connected:ci /bin/bash -c "yarn run test"
