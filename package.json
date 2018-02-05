@@ -1,6 +1,6 @@
 {
   "name": "@team-griffin/react-router-connected",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "main": "lib/index.js",
   "jsnext:main": "lib/index.js",
   "repository": "git@github.com:team-griffin/react-router-connected.git",
@@ -30,9 +30,8 @@
     "babel-core": "^6.1.21",
     "babel-eslint": "^7.2.1",
     "babel-loader": "^6.1.0",
-    "babel-preset-es2015": "^6.1.18",
+    "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.5.0",
-    "babel-preset-stage-0": "^6.5.0",
     "dockerscript": "^0.0.6",
     "eslint": "^3.19.0",
     "eslint-plugin-flowtype": "^2.30.4",
