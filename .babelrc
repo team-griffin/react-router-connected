@@ -10,8 +10,8 @@
             "safari >= 7"
           ],
         },
-        "modules": "commonjs",
-        "useBuiltIns": "usage",
+        "modules": false,
+        "useBuiltIns": false,
       }
     ]
   ]
